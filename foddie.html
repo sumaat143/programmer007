@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>foodie</title>
+	<link rel="stylesheet" type="text/css" href="style10.css">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
+</head>
+<body>
+<header>
+	<nav>
+		<div class="row clearfix">
+			<img src="image/logo.png" class="logo">
+
+			<ul class="main-nav animated slideInDown" id="check-class">
+				<li><a href="#">food delivery</a></li>
+				<li><a href="#">how to order</a></li>
+				<li><a href="#">check more</a></li>
+				<li><a href="www.facebook.com">sign up</a></li>
+			</ul>
+			<a href="#"class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+		</div>
+	</nav>
+    <div class="main-contant">
+	    <h1>WELLCOME TO <span class="change">FOODE HOUSE</span>.<br>
+	    HOUSE OF GOOD LOVER OO YES.</h1>
+        <a href="#" class="btn btn-b">click to order</a>
+        <a href="#" class="btn btn-a">show me more</a>
+    </div>
+</header>	
+     <script type="text/javascript">
+     	function slideshow(){
+     		var x = document.getElementById('check-class');
+     		if(x.style.display === "none"){
+     			x.style.display="block";
+     		}else{
+     			x.style.display="none";
+
+     		}
+
+     	}
+     </script>
+</body>
+</html>
